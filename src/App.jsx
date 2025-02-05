@@ -1,13 +1,11 @@
+import React from "react";
+import Hero from "./components/Hero";
+
 function App() {
 	return (
-		<>
-			<h1
-				style={{ fontFamily: "robert-medium, sans-serif" }}
-				className="text-5xl text-violet-300 font-bold"
-			>
-				Hello world!
-			</h1>
-		</>
+		<main className="relative min-h-screen w-screen overflow-x-hidden">
+			<Hero />
+		</main>
 	);
 }
 
